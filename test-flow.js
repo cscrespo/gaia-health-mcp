@@ -2,7 +2,7 @@
 async function run() {
     // 1. Get/Create Patient
     console.log("Creating/Getting Patient...");
-    const patientRes = await fetch("http://localhost:3000/tools/get_or_create_patient", {
+    const patientRes = await fetch("https://gaia-health-jexujssjn-cscrespos-projects.vercel.app/tools/get_or_create_patient", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -29,7 +29,7 @@ async function run() {
 
     // 2. Schedule Appointment
     console.log(`Scheduling for Patient ID: ${patientId}...`);
-    const scheduleRes = await fetch("http://localhost:3000/tools/schedule_appointment", {
+    const scheduleRes = await fetch("https://gaia-health-jexujssjn-cscrespos-projects.vercel.app/tools/schedule_appointment", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
