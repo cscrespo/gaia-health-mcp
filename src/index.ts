@@ -4,6 +4,22 @@ import { scheduleAppointment, listAppointments, checkAvailability, cancelAppoint
 
 const app = express();
 app.use(express.json());
+
+// Auth Middleware
+app.use((req, res, next) => {
+    const apiKey = process.env.MCP_API_KEY;
+    const authHeader = req.headers['x-api-key'] || req.headers['authorization'];
+
+    // If no key is configured on server, allow all (Open Mode) - OR block. 
+    // For security, let's block if key exists, allow if not (or vice versa).
+    // Better: If key IS configured, ENFORCE it.
+    if (apiKey) {
+        if (!authHeader || (authHeader !== apiKey && authHeader !== `Bearer ${apiKey}`)) {
+            return res.status(401).json({ error: "Unauthorized: Invalid or missing API Key" });
+        }
+    }
+    next();
+});
 const port = process.env.PORT || 3000;
 
 // Governance: Tool Definitions (Contracts)
