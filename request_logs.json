@@ -1,0 +1,827 @@
+﻿{
+    "uri":  "/api/requests/http",
+    "requests":  [
+                     {
+                         "uri":  "/api/requests/http/airt_36nS9SDEFrcualQfCViFvyvrdlg",
+                         "id":  "airt_36nS9SDEFrcualQfCViFvyvrdlg",
+                         "tunnel_name":  "command_line",
+                         "remote_addr":  "173.249.41.175",
+                         "start":  "2025-12-13T12:44:50-03:00",
+                         "duration":  4477000,
+                         "request":  {
+                                         "method":  "POST",
+                                         "proto":  "HTTP/1.1",
+                                         "headers":  {
+                                                         "Accept":  [
+                                                                        "application/json, text/event-stream"
+                                                                    ],
+                                                         "Accept-Encoding":  [
+                                                                                 "br, gzip, deflate"
+                                                                             ],
+                                                         "Accept-Language":  [
+                                                                                 "*"
+                                                                             ],
+                                                         "Content-Length":  [
+                                                                                "195"
+                                                                            ],
+                                                         "Content-Type":  [
+                                                                              "application/json"
+                                                                          ],
+                                                         "Host":  [
+                                                                      "managerially-platier-josefine.ngrok-free.dev"
+                                                                  ],
+                                                         "Sec-Fetch-Mode":  [
+                                                                                "cors"
+                                                                            ],
+                                                         "User-Agent":  [
+                                                                            "node"
+                                                                        ],
+                                                         "X-Forwarded-For":  [
+                                                                                 "173.249.41.175"
+                                                                             ],
+                                                         "X-Forwarded-Host":  [
+                                                                                  "managerially-platier-josefine.ngrok-free.dev"
+                                                                              ],
+                                                         "X-Forwarded-Proto":  [
+                                                                                   "https"
+                                                                               ]
+                                                     },
+                                         "uri":  "/sse",
+                                         "raw":  "UE9TVCAvc3NlIEhUVFAvMS4xDQpIb3N0OiBtYW5hZ2VyaWFsbHktcGxhdGllci1qb3NlZmluZS5uZ3Jvay1mcmVlLmRldg0KVXNlci1BZ2VudDogbm9kZQ0KQ29udGVudC1MZW5ndGg6IDE5NQ0KQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uLCB0ZXh0L2V2ZW50LXN0cmVhbQ0KQWNjZXB0LUVuY29kaW5nOiBiciwgZ3ppcCwgZGVmbGF0ZQ0KQWNjZXB0LUxhbmd1YWdlOiAqDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24NClNlYy1GZXRjaC1Nb2RlOiBjb3JzDQpYLUZvcndhcmRlZC1Gb3I6IDE3My4yNDkuNDEuMTc1DQpYLUZvcndhcmRlZC1Ib3N0OiBtYW5hZ2VyaWFsbHktcGxhdGllci1qb3NlZmluZS5uZ3Jvay1mcmVlLmRldg0KWC1Gb3J3YXJkZWQtUHJvdG86IGh0dHBzDQoNCnsibWV0aG9kIjoiaW5pdGlhbGl6ZSIsInBhcmFtcyI6eyJwcm90b2NvbFZlcnNpb24iOiIyMDI1LTA2LTE4IiwiY2FwYWJpbGl0aWVzIjp7InRvb2xzIjp7fX0sImNsaWVudEluZm8iOnsibmFtZSI6IkBuOG4vbjhuLW5vZGVzLWxhbmdjaGFpbi5tY3BDbGllbnRUb29sIiwidmVyc2lvbiI6IjEuMiJ9fSwianNvbnJwYyI6IjIuMCIsImlkIjowfQ=="
+                                     },
+                         "response":  {
+                                          "status":  "404 Not Found",
+                                          "status_code":  404,
+                                          "proto":  "HTTP/1.1",
+                                          "headers":  {
+                                                          "Connection":  [
+                                                                             "keep-alive"
+                                                                         ],
+                                                          "Content-Length":  [
+                                                                                 "143"
+                                                                             ],
+                                                          "Content-Security-Policy":  [
+                                                                                          "default-src \u0027none\u0027"
+                                                                                      ],
+                                                          "Content-Type":  [
+                                                                               "text/html; charset=utf-8"
+                                                                           ],
+                                                          "Date":  [
+                                                                       "Sat, 13 Dec 2025 15:44:50 GMT"
+                                                                   ],
+                                                          "Keep-Alive":  [
+                                                                             "timeout=5"
+                                                                         ],
+                                                          "X-Content-Type-Options":  [
+                                                                                         "nosniff"
+                                                                                     ],
+                                                          "X-Powered-By":  [
+                                                                               "Express"
+                                                                           ]
+                                                      },
+                                          "raw":  "SFRUUC8xLjEgNDA0IE5vdCBGb3VuZA0KWC1Qb3dlcmVkLUJ5OiBFeHByZXNzDQpDb250ZW50LVNlY3VyaXR5LVBvbGljeTogZGVmYXVsdC1zcmMgJ25vbmUnDQpYLUNvbnRlbnQtVHlwZS1PcHRpb25zOiBub3NuaWZmDQpDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD11dGYtOA0KQ29udGVudC1MZW5ndGg6IDE0Mw0KRGF0ZTogU2F0LCAxMyBEZWMgMjAyNSAxNTo0NDo1MCBHTVQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCktlZXAtQWxpdmU6IHRpbWVvdXQ9NQ0KDQo8IURPQ1RZUEUgaHRtbD4KPGh0bWwgbGFuZz0iZW4iPgo8aGVhZD4KPG1ldGEgY2hhcnNldD0idXRmLTgiPgo8dGl0bGU+RXJyb3I8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5Pgo8cHJlPkNhbm5vdCBQT1NUIC9zc2U8L3ByZT4KPC9ib2R5Pgo8L2h0bWw+Cg=="
+                                      }
+                     },
+                     {
+                         "uri":  "/api/requests/http/airt_36nS0dlKBrx5dCtK5Nqu3qTgC7e",
+                         "id":  "airt_36nS0dlKBrx5dCtK5Nqu3qTgC7e",
+                         "tunnel_name":  "command_line",
+                         "remote_addr":  "173.249.41.175",
+                         "start":  "2025-12-13T12:43:40-03:00",
+                         "duration":  4337700,
+                         "request":  {
+                                         "method":  "POST",
+                                         "proto":  "HTTP/1.1",
+                                         "headers":  {
+                                                         "Accept":  [
+                                                                        "application/json, text/event-stream"
+                                                                    ],
+                                                         "Accept-Encoding":  [
+                                                                                 "br, gzip, deflate"
+                                                                             ],
+                                                         "Accept-Language":  [
+                                                                                 "*"
+                                                                             ],
+                                                         "Content-Length":  [
+                                                                                "195"
+                                                                            ],
+                                                         "Content-Type":  [
+                                                                              "application/json"
+                                                                          ],
+                                                         "Host":  [
+                                                                      "managerially-platier-josefine.ngrok-free.dev"
+                                                                  ],
+                                                         "Sec-Fetch-Mode":  [
+                                                                                "cors"
+                                                                            ],
+                                                         "User-Agent":  [
+                                                                            "node"
+                                                                        ],
+                                                         "X-Forwarded-For":  [
+                                                                                 "173.249.41.175"
+                                                                             ],
+                                                         "X-Forwarded-Host":  [
+                                                                                  "managerially-platier-josefine.ngrok-free.dev"
+                                                                              ],
+                                                         "X-Forwarded-Proto":  [
+                                                                                   "https"
+                                                                               ]
+                                                     },
+                                         "uri":  "/sse",
+                                         "raw":  "UE9TVCAvc3NlIEhUVFAvMS4xDQpIb3N0OiBtYW5hZ2VyaWFsbHktcGxhdGllci1qb3NlZmluZS5uZ3Jvay1mcmVlLmRldg0KVXNlci1BZ2VudDogbm9kZQ0KQ29udGVudC1MZW5ndGg6IDE5NQ0KQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uLCB0ZXh0L2V2ZW50LXN0cmVhbQ0KQWNjZXB0LUVuY29kaW5nOiBiciwgZ3ppcCwgZGVmbGF0ZQ0KQWNjZXB0LUxhbmd1YWdlOiAqDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24NClNlYy1GZXRjaC1Nb2RlOiBjb3JzDQpYLUZvcndhcmRlZC1Gb3I6IDE3My4yNDkuNDEuMTc1DQpYLUZvcndhcmRlZC1Ib3N0OiBtYW5hZ2VyaWFsbHktcGxhdGllci1qb3NlZmluZS5uZ3Jvay1mcmVlLmRldg0KWC1Gb3J3YXJkZWQtUHJvdG86IGh0dHBzDQoNCnsibWV0aG9kIjoiaW5pdGlhbGl6ZSIsInBhcmFtcyI6eyJwcm90b2NvbFZlcnNpb24iOiIyMDI1LTA2LTE4IiwiY2FwYWJpbGl0aWVzIjp7InRvb2xzIjp7fX0sImNsaWVudEluZm8iOnsibmFtZSI6IkBuOG4vbjhuLW5vZGVzLWxhbmdjaGFpbi5tY3BDbGllbnRUb29sIiwidmVyc2lvbiI6IjEuMiJ9fSwianNvbnJwYyI6IjIuMCIsImlkIjowfQ=="
+                                     },
+                         "response":  {
+                                          "status":  "404 Not Found",
+                                          "status_code":  404,
+                                          "proto":  "HTTP/1.1",
+                                          "headers":  {
+                                                          "Connection":  [
+                                                                             "keep-alive"
+                                                                         ],
+                                                          "Content-Length":  [
+                                                                                 "143"
+                                                                             ],
+                                                          "Content-Security-Policy":  [
+                                                                                          "default-src \u0027none\u0027"
+                                                                                      ],
+                                                          "Content-Type":  [
+                                                                               "text/html; charset=utf-8"
+                                                                           ],
+                                                          "Date":  [
+                                                                       "Sat, 13 Dec 2025 15:43:40 GMT"
+                                                                   ],
+                                                          "Keep-Alive":  [
+                                                                             "timeout=5"
+                                                                         ],
+                                                          "X-Content-Type-Options":  [
+                                                                                         "nosniff"
+                                                                                     ],
+                                                          "X-Powered-By":  [
+                                                                               "Express"
+                                                                           ]
+                                                      },
+                                          "raw":  "SFRUUC8xLjEgNDA0IE5vdCBGb3VuZA0KWC1Qb3dlcmVkLUJ5OiBFeHByZXNzDQpDb250ZW50LVNlY3VyaXR5LVBvbGljeTogZGVmYXVsdC1zcmMgJ25vbmUnDQpYLUNvbnRlbnQtVHlwZS1PcHRpb25zOiBub3NuaWZmDQpDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD11dGYtOA0KQ29udGVudC1MZW5ndGg6IDE0Mw0KRGF0ZTogU2F0LCAxMyBEZWMgMjAyNSAxNTo0Mzo0MCBHTVQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCktlZXAtQWxpdmU6IHRpbWVvdXQ9NQ0KDQo8IURPQ1RZUEUgaHRtbD4KPGh0bWwgbGFuZz0iZW4iPgo8aGVhZD4KPG1ldGEgY2hhcnNldD0idXRmLTgiPgo8dGl0bGU+RXJyb3I8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5Pgo8cHJlPkNhbm5vdCBQT1NUIC9zc2U8L3ByZT4KPC9ib2R5Pgo8L2h0bWw+Cg=="
+                                      }
+                     },
+                     {
+                         "uri":  "/api/requests/http/airt_36nRtnk59hBWZtCYsIndxaPKmIo",
+                         "id":  "airt_36nRtnk59hBWZtCYsIndxaPKmIo",
+                         "tunnel_name":  "command_line",
+                         "remote_addr":  "173.249.41.175",
+                         "start":  "2025-12-13T12:42:45-03:00",
+                         "duration":  5420300,
+                         "request":  {
+                                         "method":  "POST",
+                                         "proto":  "HTTP/1.1",
+                                         "headers":  {
+                                                         "Accept":  [
+                                                                        "application/json, text/event-stream"
+                                                                    ],
+                                                         "Accept-Encoding":  [
+                                                                                 "br, gzip, deflate"
+                                                                             ],
+                                                         "Accept-Language":  [
+                                                                                 "*"
+                                                                             ],
+                                                         "Content-Length":  [
+                                                                                "195"
+                                                                            ],
+                                                         "Content-Type":  [
+                                                                              "application/json"
+                                                                          ],
+                                                         "Host":  [
+                                                                      "managerially-platier-josefine.ngrok-free.dev"
+                                                                  ],
+                                                         "Sec-Fetch-Mode":  [
+                                                                                "cors"
+                                                                            ],
+                                                         "User-Agent":  [
+                                                                            "node"
+                                                                        ],
+                                                         "X-Forwarded-For":  [
+                                                                                 "173.249.41.175"
+                                                                             ],
+                                                         "X-Forwarded-Host":  [
+                                                                                  "managerially-platier-josefine.ngrok-free.dev"
+                                                                              ],
+                                                         "X-Forwarded-Proto":  [
+                                                                                   "https"
+                                                                               ]
+                                                     },
+                                         "uri":  "/sse",
+                                         "raw":  "UE9TVCAvc3NlIEhUVFAvMS4xDQpIb3N0OiBtYW5hZ2VyaWFsbHktcGxhdGllci1qb3NlZmluZS5uZ3Jvay1mcmVlLmRldg0KVXNlci1BZ2VudDogbm9kZQ0KQ29udGVudC1MZW5ndGg6IDE5NQ0KQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uLCB0ZXh0L2V2ZW50LXN0cmVhbQ0KQWNjZXB0LUVuY29kaW5nOiBiciwgZ3ppcCwgZGVmbGF0ZQ0KQWNjZXB0LUxhbmd1YWdlOiAqDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24NClNlYy1GZXRjaC1Nb2RlOiBjb3JzDQpYLUZvcndhcmRlZC1Gb3I6IDE3My4yNDkuNDEuMTc1DQpYLUZvcndhcmRlZC1Ib3N0OiBtYW5hZ2VyaWFsbHktcGxhdGllci1qb3NlZmluZS5uZ3Jvay1mcmVlLmRldg0KWC1Gb3J3YXJkZWQtUHJvdG86IGh0dHBzDQoNCnsibWV0aG9kIjoiaW5pdGlhbGl6ZSIsInBhcmFtcyI6eyJwcm90b2NvbFZlcnNpb24iOiIyMDI1LTA2LTE4IiwiY2FwYWJpbGl0aWVzIjp7InRvb2xzIjp7fX0sImNsaWVudEluZm8iOnsibmFtZSI6IkBuOG4vbjhuLW5vZGVzLWxhbmdjaGFpbi5tY3BDbGllbnRUb29sIiwidmVyc2lvbiI6IjEuMiJ9fSwianNvbnJwYyI6IjIuMCIsImlkIjowfQ=="
+                                     },
+                         "response":  {
+                                          "status":  "404 Not Found",
+                                          "status_code":  404,
+                                          "proto":  "HTTP/1.1",
+                                          "headers":  {
+                                                          "Connection":  [
+                                                                             "keep-alive"
+                                                                         ],
+                                                          "Content-Length":  [
+                                                                                 "143"
+                                                                             ],
+                                                          "Content-Security-Policy":  [
+                                                                                          "default-src \u0027none\u0027"
+                                                                                      ],
+                                                          "Content-Type":  [
+                                                                               "text/html; charset=utf-8"
+                                                                           ],
+                                                          "Date":  [
+                                                                       "Sat, 13 Dec 2025 15:42:45 GMT"
+                                                                   ],
+                                                          "Keep-Alive":  [
+                                                                             "timeout=5"
+                                                                         ],
+                                                          "X-Content-Type-Options":  [
+                                                                                         "nosniff"
+                                                                                     ],
+                                                          "X-Powered-By":  [
+                                                                               "Express"
+                                                                           ]
+                                                      },
+                                          "raw":  "SFRUUC8xLjEgNDA0IE5vdCBGb3VuZA0KWC1Qb3dlcmVkLUJ5OiBFeHByZXNzDQpDb250ZW50LVNlY3VyaXR5LVBvbGljeTogZGVmYXVsdC1zcmMgJ25vbmUnDQpYLUNvbnRlbnQtVHlwZS1PcHRpb25zOiBub3NuaWZmDQpDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD11dGYtOA0KQ29udGVudC1MZW5ndGg6IDE0Mw0KRGF0ZTogU2F0LCAxMyBEZWMgMjAyNSAxNTo0Mjo0NSBHTVQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCktlZXAtQWxpdmU6IHRpbWVvdXQ9NQ0KDQo8IURPQ1RZUEUgaHRtbD4KPGh0bWwgbGFuZz0iZW4iPgo8aGVhZD4KPG1ldGEgY2hhcnNldD0idXRmLTgiPgo8dGl0bGU+RXJyb3I8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5Pgo8cHJlPkNhbm5vdCBQT1NUIC9zc2U8L3ByZT4KPC9ib2R5Pgo8L2h0bWw+Cg=="
+                                      }
+                     },
+                     {
+                         "uri":  "/api/requests/http/airt_36nRohCA91COTPznVoSapvPQVS1",
+                         "id":  "airt_36nRohCA91COTPznVoSapvPQVS1",
+                         "tunnel_name":  "command_line",
+                         "remote_addr":  "173.249.41.175",
+                         "start":  "2025-12-13T12:42:05-03:00",
+                         "duration":  2860600,
+                         "request":  {
+                                         "method":  "POST",
+                                         "proto":  "HTTP/1.1",
+                                         "headers":  {
+                                                         "Accept":  [
+                                                                        "application/json, text/event-stream"
+                                                                    ],
+                                                         "Accept-Encoding":  [
+                                                                                 "br, gzip, deflate"
+                                                                             ],
+                                                         "Accept-Language":  [
+                                                                                 "*"
+                                                                             ],
+                                                         "Content-Length":  [
+                                                                                "195"
+                                                                            ],
+                                                         "Content-Type":  [
+                                                                              "application/json"
+                                                                          ],
+                                                         "Host":  [
+                                                                      "managerially-platier-josefine.ngrok-free.dev"
+                                                                  ],
+                                                         "Sec-Fetch-Mode":  [
+                                                                                "cors"
+                                                                            ],
+                                                         "User-Agent":  [
+                                                                            "node"
+                                                                        ],
+                                                         "X-Forwarded-For":  [
+                                                                                 "173.249.41.175"
+                                                                             ],
+                                                         "X-Forwarded-Host":  [
+                                                                                  "managerially-platier-josefine.ngrok-free.dev"
+                                                                              ],
+                                                         "X-Forwarded-Proto":  [
+                                                                                   "https"
+                                                                               ]
+                                                     },
+                                         "uri":  "/sse",
+                                         "raw":  "UE9TVCAvc3NlIEhUVFAvMS4xDQpIb3N0OiBtYW5hZ2VyaWFsbHktcGxhdGllci1qb3NlZmluZS5uZ3Jvay1mcmVlLmRldg0KVXNlci1BZ2VudDogbm9kZQ0KQ29udGVudC1MZW5ndGg6IDE5NQ0KQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uLCB0ZXh0L2V2ZW50LXN0cmVhbQ0KQWNjZXB0LUVuY29kaW5nOiBiciwgZ3ppcCwgZGVmbGF0ZQ0KQWNjZXB0LUxhbmd1YWdlOiAqDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24NClNlYy1GZXRjaC1Nb2RlOiBjb3JzDQpYLUZvcndhcmRlZC1Gb3I6IDE3My4yNDkuNDEuMTc1DQpYLUZvcndhcmRlZC1Ib3N0OiBtYW5hZ2VyaWFsbHktcGxhdGllci1qb3NlZmluZS5uZ3Jvay1mcmVlLmRldg0KWC1Gb3J3YXJkZWQtUHJvdG86IGh0dHBzDQoNCnsibWV0aG9kIjoiaW5pdGlhbGl6ZSIsInBhcmFtcyI6eyJwcm90b2NvbFZlcnNpb24iOiIyMDI1LTA2LTE4IiwiY2FwYWJpbGl0aWVzIjp7InRvb2xzIjp7fX0sImNsaWVudEluZm8iOnsibmFtZSI6IkBuOG4vbjhuLW5vZGVzLWxhbmdjaGFpbi5tY3BDbGllbnRUb29sIiwidmVyc2lvbiI6IjEuMiJ9fSwianNvbnJwYyI6IjIuMCIsImlkIjowfQ=="
+                                     },
+                         "response":  {
+                                          "status":  "404 Not Found",
+                                          "status_code":  404,
+                                          "proto":  "HTTP/1.1",
+                                          "headers":  {
+                                                          "Connection":  [
+                                                                             "keep-alive"
+                                                                         ],
+                                                          "Content-Length":  [
+                                                                                 "143"
+                                                                             ],
+                                                          "Content-Security-Policy":  [
+                                                                                          "default-src \u0027none\u0027"
+                                                                                      ],
+                                                          "Content-Type":  [
+                                                                               "text/html; charset=utf-8"
+                                                                           ],
+                                                          "Date":  [
+                                                                       "Sat, 13 Dec 2025 15:42:05 GMT"
+                                                                   ],
+                                                          "Keep-Alive":  [
+                                                                             "timeout=5"
+                                                                         ],
+                                                          "X-Content-Type-Options":  [
+                                                                                         "nosniff"
+                                                                                     ],
+                                                          "X-Powered-By":  [
+                                                                               "Express"
+                                                                           ]
+                                                      },
+                                          "raw":  "SFRUUC8xLjEgNDA0IE5vdCBGb3VuZA0KWC1Qb3dlcmVkLUJ5OiBFeHByZXNzDQpDb250ZW50LVNlY3VyaXR5LVBvbGljeTogZGVmYXVsdC1zcmMgJ25vbmUnDQpYLUNvbnRlbnQtVHlwZS1PcHRpb25zOiBub3NuaWZmDQpDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD11dGYtOA0KQ29udGVudC1MZW5ndGg6IDE0Mw0KRGF0ZTogU2F0LCAxMyBEZWMgMjAyNSAxNTo0MjowNSBHTVQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCktlZXAtQWxpdmU6IHRpbWVvdXQ9NQ0KDQo8IURPQ1RZUEUgaHRtbD4KPGh0bWwgbGFuZz0iZW4iPgo8aGVhZD4KPG1ldGEgY2hhcnNldD0idXRmLTgiPgo8dGl0bGU+RXJyb3I8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5Pgo8cHJlPkNhbm5vdCBQT1NUIC9zc2U8L3ByZT4KPC9ib2R5Pgo8L2h0bWw+Cg=="
+                                      }
+                     },
+                     {
+                         "uri":  "/api/requests/http/airt_36nRobsBpPIbyA05hBfWurVy9am",
+                         "id":  "airt_36nRobsBpPIbyA05hBfWurVy9am",
+                         "tunnel_name":  "command_line",
+                         "remote_addr":  "173.249.41.175",
+                         "start":  "2025-12-13T12:42:04-03:00",
+                         "duration":  20691100,
+                         "request":  {
+                                         "method":  "POST",
+                                         "proto":  "HTTP/1.1",
+                                         "headers":  {
+                                                         "Accept":  [
+                                                                        "application/json, text/event-stream"
+                                                                    ],
+                                                         "Accept-Encoding":  [
+                                                                                 "br, gzip, deflate"
+                                                                             ],
+                                                         "Accept-Language":  [
+                                                                                 "*"
+                                                                             ],
+                                                         "Content-Length":  [
+                                                                                "195"
+                                                                            ],
+                                                         "Content-Type":  [
+                                                                              "application/json"
+                                                                          ],
+                                                         "Host":  [
+                                                                      "managerially-platier-josefine.ngrok-free.dev"
+                                                                  ],
+                                                         "Sec-Fetch-Mode":  [
+                                                                                "cors"
+                                                                            ],
+                                                         "User-Agent":  [
+                                                                            "node"
+                                                                        ],
+                                                         "X-Forwarded-For":  [
+                                                                                 "173.249.41.175"
+                                                                             ],
+                                                         "X-Forwarded-Host":  [
+                                                                                  "managerially-platier-josefine.ngrok-free.dev"
+                                                                              ],
+                                                         "X-Forwarded-Proto":  [
+                                                                                   "https"
+                                                                               ]
+                                                     },
+                                         "uri":  "/sse",
+                                         "raw":  "UE9TVCAvc3NlIEhUVFAvMS4xDQpIb3N0OiBtYW5hZ2VyaWFsbHktcGxhdGllci1qb3NlZmluZS5uZ3Jvay1mcmVlLmRldg0KVXNlci1BZ2VudDogbm9kZQ0KQ29udGVudC1MZW5ndGg6IDE5NQ0KQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uLCB0ZXh0L2V2ZW50LXN0cmVhbQ0KQWNjZXB0LUVuY29kaW5nOiBiciwgZ3ppcCwgZGVmbGF0ZQ0KQWNjZXB0LUxhbmd1YWdlOiAqDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24NClNlYy1GZXRjaC1Nb2RlOiBjb3JzDQpYLUZvcndhcmRlZC1Gb3I6IDE3My4yNDkuNDEuMTc1DQpYLUZvcndhcmRlZC1Ib3N0OiBtYW5hZ2VyaWFsbHktcGxhdGllci1qb3NlZmluZS5uZ3Jvay1mcmVlLmRldg0KWC1Gb3J3YXJkZWQtUHJvdG86IGh0dHBzDQoNCnsibWV0aG9kIjoiaW5pdGlhbGl6ZSIsInBhcmFtcyI6eyJwcm90b2NvbFZlcnNpb24iOiIyMDI1LTA2LTE4IiwiY2FwYWJpbGl0aWVzIjp7InRvb2xzIjp7fX0sImNsaWVudEluZm8iOnsibmFtZSI6IkBuOG4vbjhuLW5vZGVzLWxhbmdjaGFpbi5tY3BDbGllbnRUb29sIiwidmVyc2lvbiI6IjEuMiJ9fSwianNvbnJwYyI6IjIuMCIsImlkIjowfQ=="
+                                     },
+                         "response":  {
+                                          "status":  "404 Not Found",
+                                          "status_code":  404,
+                                          "proto":  "HTTP/1.1",
+                                          "headers":  {
+                                                          "Connection":  [
+                                                                             "keep-alive"
+                                                                         ],
+                                                          "Content-Length":  [
+                                                                                 "143"
+                                                                             ],
+                                                          "Content-Security-Policy":  [
+                                                                                          "default-src \u0027none\u0027"
+                                                                                      ],
+                                                          "Content-Type":  [
+                                                                               "text/html; charset=utf-8"
+                                                                           ],
+                                                          "Date":  [
+                                                                       "Sat, 13 Dec 2025 15:42:04 GMT"
+                                                                   ],
+                                                          "Keep-Alive":  [
+                                                                             "timeout=5"
+                                                                         ],
+                                                          "X-Content-Type-Options":  [
+                                                                                         "nosniff"
+                                                                                     ],
+                                                          "X-Powered-By":  [
+                                                                               "Express"
+                                                                           ]
+                                                      },
+                                          "raw":  "SFRUUC8xLjEgNDA0IE5vdCBGb3VuZA0KWC1Qb3dlcmVkLUJ5OiBFeHByZXNzDQpDb250ZW50LVNlY3VyaXR5LVBvbGljeTogZGVmYXVsdC1zcmMgJ25vbmUnDQpYLUNvbnRlbnQtVHlwZS1PcHRpb25zOiBub3NuaWZmDQpDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD11dGYtOA0KQ29udGVudC1MZW5ndGg6IDE0Mw0KRGF0ZTogU2F0LCAxMyBEZWMgMjAyNSAxNTo0MjowNCBHTVQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCktlZXAtQWxpdmU6IHRpbWVvdXQ9NQ0KDQo8IURPQ1RZUEUgaHRtbD4KPGh0bWwgbGFuZz0iZW4iPgo8aGVhZD4KPG1ldGEgY2hhcnNldD0idXRmLTgiPgo8dGl0bGU+RXJyb3I8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5Pgo8cHJlPkNhbm5vdCBQT1NUIC9zc2U8L3ByZT4KPC9ib2R5Pgo8L2h0bWw+Cg=="
+                                      }
+                     },
+                     {
+                         "uri":  "/api/requests/http/airt_36nQwbjOPTZ4xNHmGyPUrGmdsLO",
+                         "id":  "airt_36nQwbjOPTZ4xNHmGyPUrGmdsLO",
+                         "tunnel_name":  "command_line",
+                         "remote_addr":  "54.86.50.139",
+                         "start":  "2025-12-13T12:34:54-03:00",
+                         "duration":  29803082500,
+                         "request":  {
+                                         "method":  "GET",
+                                         "proto":  "HTTP/1.1",
+                                         "headers":  {
+                                                         "Accept":  [
+                                                                        "*/*"
+                                                                    ],
+                                                         "Accept-Encoding":  [
+                                                                                 "gzip, deflate, br"
+                                                                             ],
+                                                         "Cache-Control":  [
+                                                                               "no-cache"
+                                                                           ],
+                                                         "Host":  [
+                                                                      "managerially-platier-josefine.ngrok-free.dev"
+                                                                  ],
+                                                         "Postman-Token":  [
+                                                                               "b3ed75df-8f12-478b-b820-7b2ef80a74a6"
+                                                                           ],
+                                                         "User-Agent":  [
+                                                                            "PostmanRuntime/7.50.0"
+                                                                        ],
+                                                         "X-Forwarded-For":  [
+                                                                                 "191.0.126.44",
+                                                                                 "54.86.50.139"
+                                                                             ],
+                                                         "X-Forwarded-Host":  [
+                                                                                  "managerially-platier-josefine.ngrok-free.dev"
+                                                                              ],
+                                                         "X-Forwarded-Proto":  [
+                                                                                   "https"
+                                                                               ]
+                                                     },
+                                         "uri":  "/sse",
+                                         "raw":  "R0VUIC9zc2UgSFRUUC8xLjENCkhvc3Q6IG1hbmFnZXJpYWxseS1wbGF0aWVyLWpvc2VmaW5lLm5ncm9rLWZyZWUuZGV2DQpVc2VyLUFnZW50OiBQb3N0bWFuUnVudGltZS83LjUwLjANCkFjY2VwdDogKi8qDQpBY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUsIGJyDQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KUG9zdG1hbi1Ub2tlbjogYjNlZDc1ZGYtOGYxMi00NzhiLWI4MjAtN2IyZWY4MGE3NGE2DQpYLUZvcndhcmRlZC1Gb3I6IDE5MS4wLjEyNi40NA0KWC1Gb3J3YXJkZWQtRm9yOiA1NC44Ni41MC4xMzkNClgtRm9yd2FyZGVkLUhvc3Q6IG1hbmFnZXJpYWxseS1wbGF0aWVyLWpvc2VmaW5lLm5ncm9rLWZyZWUuZGV2DQpYLUZvcndhcmRlZC1Qcm90bzogaHR0cHMNCg0K"
+                                     },
+                         "response":  {
+                                          "status":  "200 OK",
+                                          "status_code":  200,
+                                          "proto":  "HTTP/1.1",
+                                          "headers":  {
+                                                          "Cache-Control":  [
+                                                                                "no-cache"
+                                                                            ],
+                                                          "Connection":  [
+                                                                             "keep-alive"
+                                                                         ],
+                                                          "Content-Type":  [
+                                                                               "text/event-stream"
+                                                                           ],
+                                                          "Date":  [
+                                                                       "Sat, 13 Dec 2025 15:34:54 GMT"
+                                                                   ],
+                                                          "X-Powered-By":  [
+                                                                               "Express"
+                                                                           ]
+                                                      },
+                                          "raw":  null
+                                      }
+                     },
+                     {
+                         "uri":  "/api/requests/http/airt_36nQvIJ74m3XmbfbYDbr70iF74L",
+                         "id":  "airt_36nQvIJ74m3XmbfbYDbr70iF74L",
+                         "tunnel_name":  "command_line",
+                         "remote_addr":  "191.0.126.44",
+                         "start":  "2025-12-13T12:34:44-03:00",
+                         "duration":  194734889800,
+                         "request":  {
+                                         "method":  "GET",
+                                         "proto":  "HTTP/1.1",
+                                         "headers":  {
+                                                         "Accept":  [
+                                                                        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+                                                                    ],
+                                                         "Accept-Encoding":  [
+                                                                                 "gzip, deflate, br, zstd"
+                                                                             ],
+                                                         "Accept-Language":  [
+                                                                                 "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7"
+                                                                             ],
+                                                         "Cookie":  [
+                                                                        "abuse_interstitial=managerially-platier-josefine.ngrok-free.dev"
+                                                                    ],
+                                                         "Host":  [
+                                                                      "managerially-platier-josefine.ngrok-free.dev"
+                                                                  ],
+                                                         "Priority":  [
+                                                                          "u=0, i"
+                                                                      ],
+                                                         "Sec-Ch-Ua":  [
+                                                                           "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+                                                                       ],
+                                                         "Sec-Ch-Ua-Mobile":  [
+                                                                                  "?0"
+                                                                              ],
+                                                         "Sec-Ch-Ua-Platform":  [
+                                                                                    "\"Windows\""
+                                                                                ],
+                                                         "Sec-Fetch-Dest":  [
+                                                                                "document"
+                                                                            ],
+                                                         "Sec-Fetch-Mode":  [
+                                                                                "navigate"
+                                                                            ],
+                                                         "Sec-Fetch-Site":  [
+                                                                                "none"
+                                                                            ],
+                                                         "Sec-Fetch-User":  [
+                                                                                "?1"
+                                                                            ],
+                                                         "Upgrade-Insecure-Requests":  [
+                                                                                           "1"
+                                                                                       ],
+                                                         "User-Agent":  [
+                                                                            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+                                                                        ],
+                                                         "X-Forwarded-For":  [
+                                                                                 "191.0.126.44"
+                                                                             ],
+                                                         "X-Forwarded-Host":  [
+                                                                                  "managerially-platier-josefine.ngrok-free.dev"
+                                                                              ],
+                                                         "X-Forwarded-Proto":  [
+                                                                                   "https"
+                                                                               ]
+                                                     },
+                                         "uri":  "/sse",
+                                         "raw":  "R0VUIC9zc2UgSFRUUC8xLjENCkhvc3Q6IG1hbmFnZXJpYWxseS1wbGF0aWVyLWpvc2VmaW5lLm5ncm9rLWZyZWUuZGV2DQpVc2VyLUFnZW50OiBNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTQzLjAuMC4wIFNhZmFyaS81MzcuMzYNCkFjY2VwdDogdGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksaW1hZ2UvYXZpZixpbWFnZS93ZWJwLGltYWdlL2FwbmcsKi8qO3E9MC44LGFwcGxpY2F0aW9uL3NpZ25lZC1leGNoYW5nZTt2PWIzO3E9MC43DQpBY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUsIGJyLCB6c3RkDQpBY2NlcHQtTGFuZ3VhZ2U6IHB0LVBULHB0O3E9MC45LGVuLVVTO3E9MC44LGVuO3E9MC43DQpDb29raWU6IGFidXNlX2ludGVyc3RpdGlhbD1tYW5hZ2VyaWFsbHktcGxhdGllci1qb3NlZmluZS5uZ3Jvay1mcmVlLmRldg0KUHJpb3JpdHk6IHU9MCwgaQ0KU2VjLUNoLVVhOiAiR29vZ2xlIENocm9tZSI7dj0iMTQzIiwgIkNocm9taXVtIjt2PSIxNDMiLCAiTm90IEEoQnJhbmQiO3Y9IjI0Ig0KU2VjLUNoLVVhLU1vYmlsZTogPzANClNlYy1DaC1VYS1QbGF0Zm9ybTogIldpbmRvd3MiDQpTZWMtRmV0Y2gtRGVzdDogZG9jdW1lbnQNClNlYy1GZXRjaC1Nb2RlOiBuYXZpZ2F0ZQ0KU2VjLUZldGNoLVNpdGU6IG5vbmUNClNlYy1GZXRjaC1Vc2VyOiA/MQ0KVXBncmFkZS1JbnNlY3VyZS1SZXF1ZXN0czogMQ0KWC1Gb3J3YXJkZWQtRm9yOiAxOTEuMC4xMjYuNDQNClgtRm9yd2FyZGVkLUhvc3Q6IG1hbmFnZXJpYWxseS1wbGF0aWVyLWpvc2VmaW5lLm5ncm9rLWZyZWUuZGV2DQpYLUZvcndhcmRlZC1Qcm90bzogaHR0cHMNCg0K"
+                                     },
+                         "response":  {
+                                          "status":  "200 OK",
+                                          "status_code":  200,
+                                          "proto":  "HTTP/1.1",
+                                          "headers":  {
+                                                          "Cache-Control":  [
+                                                                                "no-cache"
+                                                                            ],
+                                                          "Connection":  [
+                                                                             "keep-alive"
+                                                                         ],
+                                                          "Content-Type":  [
+                                                                               "text/event-stream"
+                                                                           ],
+                                                          "Date":  [
+                                                                       "Sat, 13 Dec 2025 15:34:44 GMT"
+                                                                   ],
+                                                          "X-Powered-By":  [
+                                                                               "Express"
+                                                                           ]
+                                                      },
+                                          "raw":  null
+                                      }
+                     },
+                     {
+                         "uri":  "/api/requests/http/airt_36nQsIZGV1LoRvIqmKRmBb53xzs",
+                         "id":  "airt_36nQsIZGV1LoRvIqmKRmBb53xzs",
+                         "tunnel_name":  "command_line",
+                         "remote_addr":  "54.86.50.139",
+                         "start":  "2025-12-13T12:34:20-03:00",
+                         "duration":  5312900,
+                         "request":  {
+                                         "method":  "GET",
+                                         "proto":  "HTTP/1.1",
+                                         "headers":  {
+                                                         "Accept":  [
+                                                                        "*/*"
+                                                                    ],
+                                                         "Accept-Encoding":  [
+                                                                                 "gzip, deflate, br"
+                                                                             ],
+                                                         "Cache-Control":  [
+                                                                               "no-cache"
+                                                                           ],
+                                                         "Host":  [
+                                                                      "managerially-platier-josefine.ngrok-free.dev"
+                                                                  ],
+                                                         "Postman-Token":  [
+                                                                               "89ba599f-d304-4e1a-98ee-eeee05ca1fae"
+                                                                           ],
+                                                         "User-Agent":  [
+                                                                            "PostmanRuntime/7.50.0"
+                                                                        ],
+                                                         "X-Forwarded-For":  [
+                                                                                 "191.0.126.44",
+                                                                                 "54.86.50.139"
+                                                                             ],
+                                                         "X-Forwarded-Host":  [
+                                                                                  "managerially-platier-josefine.ngrok-free.dev"
+                                                                              ],
+                                                         "X-Forwarded-Proto":  [
+                                                                                   "https"
+                                                                               ]
+                                                     },
+                                         "uri":  "/messages",
+                                         "raw":  "R0VUIC9tZXNzYWdlcyBIVFRQLzEuMQ0KSG9zdDogbWFuYWdlcmlhbGx5LXBsYXRpZXItam9zZWZpbmUubmdyb2stZnJlZS5kZXYNClVzZXItQWdlbnQ6IFBvc3RtYW5SdW50aW1lLzcuNTAuMA0KQWNjZXB0OiAqLyoNCkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZSwgYnINCkNhY2hlLUNvbnRyb2w6IG5vLWNhY2hlDQpQb3N0bWFuLVRva2VuOiA4OWJhNTk5Zi1kMzA0LTRlMWEtOThlZS1lZWVlMDVjYTFmYWUNClgtRm9yd2FyZGVkLUZvcjogMTkxLjAuMTI2LjQ0DQpYLUZvcndhcmRlZC1Gb3I6IDU0Ljg2LjUwLjEzOQ0KWC1Gb3J3YXJkZWQtSG9zdDogbWFuYWdlcmlhbGx5LXBsYXRpZXItam9zZWZpbmUubmdyb2stZnJlZS5kZXYNClgtRm9yd2FyZGVkLVByb3RvOiBodHRwcw0KDQo="
+                                     },
+                         "response":  {
+                                          "status":  "404 Not Found",
+                                          "status_code":  404,
+                                          "proto":  "HTTP/1.1",
+                                          "headers":  {
+                                                          "Connection":  [
+                                                                             "keep-alive"
+                                                                         ],
+                                                          "Content-Length":  [
+                                                                                 "147"
+                                                                             ],
+                                                          "Content-Security-Policy":  [
+                                                                                          "default-src \u0027none\u0027"
+                                                                                      ],
+                                                          "Content-Type":  [
+                                                                               "text/html; charset=utf-8"
+                                                                           ],
+                                                          "Date":  [
+                                                                       "Sat, 13 Dec 2025 15:34:20 GMT"
+                                                                   ],
+                                                          "Keep-Alive":  [
+                                                                             "timeout=5"
+                                                                         ],
+                                                          "X-Content-Type-Options":  [
+                                                                                         "nosniff"
+                                                                                     ],
+                                                          "X-Powered-By":  [
+                                                                               "Express"
+                                                                           ]
+                                                      },
+                                          "raw":  "SFRUUC8xLjEgNDA0IE5vdCBGb3VuZA0KWC1Qb3dlcmVkLUJ5OiBFeHByZXNzDQpDb250ZW50LVNlY3VyaXR5LVBvbGljeTogZGVmYXVsdC1zcmMgJ25vbmUnDQpYLUNvbnRlbnQtVHlwZS1PcHRpb25zOiBub3NuaWZmDQpDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD11dGYtOA0KQ29udGVudC1MZW5ndGg6IDE0Nw0KRGF0ZTogU2F0LCAxMyBEZWMgMjAyNSAxNTozNDoyMCBHTVQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCktlZXAtQWxpdmU6IHRpbWVvdXQ9NQ0KDQo8IURPQ1RZUEUgaHRtbD4KPGh0bWwgbGFuZz0iZW4iPgo8aGVhZD4KPG1ldGEgY2hhcnNldD0idXRmLTgiPgo8dGl0bGU+RXJyb3I8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5Pgo8cHJlPkNhbm5vdCBHRVQgL21lc3NhZ2VzPC9wcmU+CjwvYm9keT4KPC9odG1sPgo="
+                                      }
+                     },
+                     {
+                         "uri":  "/api/requests/http/airt_36nQrMXG5IDQtGIklq0evA6Ol5u",
+                         "id":  "airt_36nQrMXG5IDQtGIklq0evA6Ol5u",
+                         "tunnel_name":  "command_line",
+                         "remote_addr":  "191.0.126.44",
+                         "start":  "2025-12-13T12:34:12-03:00",
+                         "duration":  6257400,
+                         "request":  {
+                                         "method":  "GET",
+                                         "proto":  "HTTP/1.1",
+                                         "headers":  {
+                                                         "Accept":  [
+                                                                        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+                                                                    ],
+                                                         "Accept-Encoding":  [
+                                                                                 "gzip, deflate, br, zstd"
+                                                                             ],
+                                                         "Accept-Language":  [
+                                                                                 "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7"
+                                                                             ],
+                                                         "Cache-Control":  [
+                                                                               "max-age=0"
+                                                                           ],
+                                                         "Cookie":  [
+                                                                        "abuse_interstitial=managerially-platier-josefine.ngrok-free.dev"
+                                                                    ],
+                                                         "Host":  [
+                                                                      "managerially-platier-josefine.ngrok-free.dev"
+                                                                  ],
+                                                         "Priority":  [
+                                                                          "u=0, i"
+                                                                      ],
+                                                         "Sec-Ch-Ua":  [
+                                                                           "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+                                                                       ],
+                                                         "Sec-Ch-Ua-Mobile":  [
+                                                                                  "?0"
+                                                                              ],
+                                                         "Sec-Ch-Ua-Platform":  [
+                                                                                    "\"Windows\""
+                                                                                ],
+                                                         "Sec-Fetch-Dest":  [
+                                                                                "document"
+                                                                            ],
+                                                         "Sec-Fetch-Mode":  [
+                                                                                "navigate"
+                                                                            ],
+                                                         "Sec-Fetch-Site":  [
+                                                                                "same-origin"
+                                                                            ],
+                                                         "Sec-Fetch-User":  [
+                                                                                "?1"
+                                                                            ],
+                                                         "Upgrade-Insecure-Requests":  [
+                                                                                           "1"
+                                                                                       ],
+                                                         "User-Agent":  [
+                                                                            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+                                                                        ],
+                                                         "X-Forwarded-For":  [
+                                                                                 "191.0.126.44"
+                                                                             ],
+                                                         "X-Forwarded-Host":  [
+                                                                                  "managerially-platier-josefine.ngrok-free.dev"
+                                                                              ],
+                                                         "X-Forwarded-Proto":  [
+                                                                                   "https"
+                                                                               ]
+                                                     },
+                                         "uri":  "/messages",
+                                         "raw":  "R0VUIC9tZXNzYWdlcyBIVFRQLzEuMQ0KSG9zdDogbWFuYWdlcmlhbGx5LXBsYXRpZXItam9zZWZpbmUubmdyb2stZnJlZS5kZXYNClVzZXItQWdlbnQ6IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xNDMuMC4wLjAgU2FmYXJpLzUzNy4zNg0KQWNjZXB0OiB0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSxpbWFnZS9hdmlmLGltYWdlL3dlYnAsaW1hZ2UvYXBuZywqLyo7cT0wLjgsYXBwbGljYXRpb24vc2lnbmVkLWV4Y2hhbmdlO3Y9YjM7cT0wLjcNCkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZSwgYnIsIHpzdGQNCkFjY2VwdC1MYW5ndWFnZTogcHQtUFQscHQ7cT0wLjksZW4tVVM7cT0wLjgsZW47cT0wLjcNCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MA0KQ29va2llOiBhYnVzZV9pbnRlcnN0aXRpYWw9bWFuYWdlcmlhbGx5LXBsYXRpZXItam9zZWZpbmUubmdyb2stZnJlZS5kZXYNClByaW9yaXR5OiB1PTAsIGkNClNlYy1DaC1VYTogIkdvb2dsZSBDaHJvbWUiO3Y9IjE0MyIsICJDaHJvbWl1bSI7dj0iMTQzIiwgIk5vdCBBKEJyYW5kIjt2PSIyNCINClNlYy1DaC1VYS1Nb2JpbGU6ID8wDQpTZWMtQ2gtVWEtUGxhdGZvcm06ICJXaW5kb3dzIg0KU2VjLUZldGNoLURlc3Q6IGRvY3VtZW50DQpTZWMtRmV0Y2gtTW9kZTogbmF2aWdhdGUNClNlYy1GZXRjaC1TaXRlOiBzYW1lLW9yaWdpbg0KU2VjLUZldGNoLVVzZXI6ID8xDQpVcGdyYWRlLUluc2VjdXJlLVJlcXVlc3RzOiAxDQpYLUZvcndhcmRlZC1Gb3I6IDE5MS4wLjEyNi40NA0KWC1Gb3J3YXJkZWQtSG9zdDogbWFuYWdlcmlhbGx5LXBsYXRpZXItam9zZWZpbmUubmdyb2stZnJlZS5kZXYNClgtRm9yd2FyZGVkLVByb3RvOiBodHRwcw0KDQo="
+                                     },
+                         "response":  {
+                                          "status":  "404 Not Found",
+                                          "status_code":  404,
+                                          "proto":  "HTTP/1.1",
+                                          "headers":  {
+                                                          "Connection":  [
+                                                                             "keep-alive"
+                                                                         ],
+                                                          "Content-Length":  [
+                                                                                 "147"
+                                                                             ],
+                                                          "Content-Security-Policy":  [
+                                                                                          "default-src \u0027none\u0027"
+                                                                                      ],
+                                                          "Content-Type":  [
+                                                                               "text/html; charset=utf-8"
+                                                                           ],
+                                                          "Date":  [
+                                                                       "Sat, 13 Dec 2025 15:34:12 GMT"
+                                                                   ],
+                                                          "Keep-Alive":  [
+                                                                             "timeout=5"
+                                                                         ],
+                                                          "X-Content-Type-Options":  [
+                                                                                         "nosniff"
+                                                                                     ],
+                                                          "X-Powered-By":  [
+                                                                               "Express"
+                                                                           ]
+                                                      },
+                                          "raw":  "SFRUUC8xLjEgNDA0IE5vdCBGb3VuZA0KWC1Qb3dlcmVkLUJ5OiBFeHByZXNzDQpDb250ZW50LVNlY3VyaXR5LVBvbGljeTogZGVmYXVsdC1zcmMgJ25vbmUnDQpYLUNvbnRlbnQtVHlwZS1PcHRpb25zOiBub3NuaWZmDQpDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD11dGYtOA0KQ29udGVudC1MZW5ndGg6IDE0Nw0KRGF0ZTogU2F0LCAxMyBEZWMgMjAyNSAxNTozNDoxMiBHTVQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCktlZXAtQWxpdmU6IHRpbWVvdXQ9NQ0KDQo8IURPQ1RZUEUgaHRtbD4KPGh0bWwgbGFuZz0iZW4iPgo8aGVhZD4KPG1ldGEgY2hhcnNldD0idXRmLTgiPgo8dGl0bGU+RXJyb3I8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5Pgo8cHJlPkNhbm5vdCBHRVQgL21lc3NhZ2VzPC9wcmU+CjwvYm9keT4KPC9odG1sPgo="
+                                      }
+                     },
+                     {
+                         "uri":  "/api/requests/http/airt_36nQpS9ULkov5EIk52HDNRFifdK",
+                         "id":  "airt_36nQpS9ULkov5EIk52HDNRFifdK",
+                         "tunnel_name":  "command_line",
+                         "remote_addr":  "54.86.50.139",
+                         "start":  "2025-12-13T12:33:57-03:00",
+                         "duration":  151625900,
+                         "request":  {
+                                         "method":  "GET",
+                                         "proto":  "HTTP/1.1",
+                                         "headers":  {
+                                                         "Accept":  [
+                                                                        "*/*"
+                                                                    ],
+                                                         "Accept-Encoding":  [
+                                                                                 "gzip, deflate, br"
+                                                                             ],
+                                                         "Cache-Control":  [
+                                                                               "no-cache"
+                                                                           ],
+                                                         "Host":  [
+                                                                      "managerially-platier-josefine.ngrok-free.dev"
+                                                                  ],
+                                                         "Postman-Token":  [
+                                                                               "b5fd0b21-6f11-4454-8ed0-21f5da35646c"
+                                                                           ],
+                                                         "User-Agent":  [
+                                                                            "PostmanRuntime/7.50.0"
+                                                                        ],
+                                                         "X-Forwarded-For":  [
+                                                                                 "191.0.126.44",
+                                                                                 "54.86.50.139"
+                                                                             ],
+                                                         "X-Forwarded-Host":  [
+                                                                                  "managerially-platier-josefine.ngrok-free.dev"
+                                                                              ],
+                                                         "X-Forwarded-Proto":  [
+                                                                                   "https"
+                                                                               ]
+                                                     },
+                                         "uri":  "/messages",
+                                         "raw":  "R0VUIC9tZXNzYWdlcyBIVFRQLzEuMQ0KSG9zdDogbWFuYWdlcmlhbGx5LXBsYXRpZXItam9zZWZpbmUubmdyb2stZnJlZS5kZXYNClVzZXItQWdlbnQ6IFBvc3RtYW5SdW50aW1lLzcuNTAuMA0KQWNjZXB0OiAqLyoNCkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZSwgYnINCkNhY2hlLUNvbnRyb2w6IG5vLWNhY2hlDQpQb3N0bWFuLVRva2VuOiBiNWZkMGIyMS02ZjExLTQ0NTQtOGVkMC0yMWY1ZGEzNTY0NmMNClgtRm9yd2FyZGVkLUZvcjogMTkxLjAuMTI2LjQ0DQpYLUZvcndhcmRlZC1Gb3I6IDU0Ljg2LjUwLjEzOQ0KWC1Gb3J3YXJkZWQtSG9zdDogbWFuYWdlcmlhbGx5LXBsYXRpZXItam9zZWZpbmUubmdyb2stZnJlZS5kZXYNClgtRm9yd2FyZGVkLVByb3RvOiBodHRwcw0KDQo="
+                                     },
+                         "response":  {
+                                          "status":  "404 Not Found",
+                                          "status_code":  404,
+                                          "proto":  "HTTP/1.1",
+                                          "headers":  {
+                                                          "Connection":  [
+                                                                             "keep-alive"
+                                                                         ],
+                                                          "Content-Length":  [
+                                                                                 "147"
+                                                                             ],
+                                                          "Content-Security-Policy":  [
+                                                                                          "default-src \u0027none\u0027"
+                                                                                      ],
+                                                          "Content-Type":  [
+                                                                               "text/html; charset=utf-8"
+                                                                           ],
+                                                          "Date":  [
+                                                                       "Sat, 13 Dec 2025 15:33:57 GMT"
+                                                                   ],
+                                                          "Keep-Alive":  [
+                                                                             "timeout=5"
+                                                                         ],
+                                                          "X-Content-Type-Options":  [
+                                                                                         "nosniff"
+                                                                                     ],
+                                                          "X-Powered-By":  [
+                                                                               "Express"
+                                                                           ]
+                                                      },
+                                          "raw":  "SFRUUC8xLjEgNDA0IE5vdCBGb3VuZA0KWC1Qb3dlcmVkLUJ5OiBFeHByZXNzDQpDb250ZW50LVNlY3VyaXR5LVBvbGljeTogZGVmYXVsdC1zcmMgJ25vbmUnDQpYLUNvbnRlbnQtVHlwZS1PcHRpb25zOiBub3NuaWZmDQpDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD11dGYtOA0KQ29udGVudC1MZW5ndGg6IDE0Nw0KRGF0ZTogU2F0LCAxMyBEZWMgMjAyNSAxNTozMzo1NyBHTVQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCktlZXAtQWxpdmU6IHRpbWVvdXQ9NQ0KDQo8IURPQ1RZUEUgaHRtbD4KPGh0bWwgbGFuZz0iZW4iPgo8aGVhZD4KPG1ldGEgY2hhcnNldD0idXRmLTgiPgo8dGl0bGU+RXJyb3I8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5Pgo8cHJlPkNhbm5vdCBHRVQgL21lc3NhZ2VzPC9wcmU+CjwvYm9keT4KPC9odG1sPgo="
+                                      }
+                     }
+                 ]
+}

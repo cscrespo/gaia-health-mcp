@@ -1,0 +1,128 @@
+{
+  "pacientes": {
+    "exists": true,
+    "columns": [
+      "id",
+      "profile_id",
+      "organizacao_id",
+      "nome_completo",
+      "cpf",
+      "data_nascimento",
+      "sexo",
+      "estado_civil",
+      "telefone",
+      "email",
+      "endereco",
+      "contato_emergencia",
+      "informacoes_medicas",
+      "historico_consultas",
+      "criado_em",
+      "atualizado_em",
+      "endereco_completo",
+      "plano_saude",
+      "observacoes_gerais",
+      "foto_url",
+      "status_ativo",
+      "id_medx",
+      "subs_medx"
+    ]
+  },
+  "medicos": {
+    "exists": true,
+    "columns": [
+      "id",
+      "profile_id",
+      "organizacao_id",
+      "crm",
+      "especialidades",
+      "tempo_consulta_padrao",
+      "valor_consulta",
+      "configuracoes_agenda",
+      "biografia",
+      "ativo",
+      "criado_em",
+      "atualizado_em",
+      "foto_url",
+      "nome_completo",
+      "email",
+      "telefone"
+    ]
+  },
+  "doutores": {
+    "exists": false,
+    "error": "relation \"public.doutores\" does not exist"
+  },
+  "agendamentos": {
+    "exists": true,
+    "columns": [
+      "id",
+      "organizacao_id",
+      "filial_id",
+      "medico_id",
+      "paciente_id",
+      "data_hora",
+      "duracao_minutos",
+      "tipo_consulta",
+      "status",
+      "motivo_consulta",
+      "observacoes",
+      "valor",
+      "insights_ia",
+      "criado_em",
+      "atualizado_em",
+      "eh_encaixe",
+      "tipo_encaixe",
+      "score_urgencia",
+      "metadados_encaixe",
+      "status_pagamento",
+      "forma_pagamento",
+      "data_pagamento",
+      "valor_desconto",
+      "valor_final",
+      "observacoes_pagamento",
+      "tipo_agendamento",
+      "recurso_id"
+    ]
+  },
+  "consultas": {
+    "exists": false,
+    "error": "relation \"public.consultas\" does not exist"
+  },
+  "usuarios": {
+    "exists": false,
+    "error": "relation \"public.usuarios\" does not exist"
+  },
+  "perfis": {
+    "exists": false,
+    "error": "relation \"public.perfis\" does not exist"
+  },
+  "profiles": {
+    "exists": true,
+    "columns": [
+      "id",
+      "organizacao_id",
+      "filial_id",
+      "nome_completo",
+      "email",
+      "telefone",
+      "role",
+      "configuracoes_pessoais",
+      "ativo",
+      "criado_em",
+      "atualizado_em",
+      "avatar_url",
+      "timezone",
+      "preferencias",
+      "ultimo_acesso",
+      "status_usuario",
+      "senha_temporaria",
+      "deve_trocar_senha",
+      "ultimo_reset_senha",
+      "senha_temporaria_expira"
+    ]
+  },
+  "users": {
+    "exists": false,
+    "error": "relation \"public.users\" does not exist"
+  }
+}
