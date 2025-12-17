@@ -232,8 +232,20 @@ export const checkAvailability = async (args: { doctor_id: string; branch_id: st
     const hasAvailableSlot = availableSlots.length > 0;
 
     if (hasAvailableSlot) {
-        // SUCCESS: Found in range
-        return formatResponse("AVAILABLE", availableSlots[0], "Slots found in requested range.");
+        const first = availableSlots[0];
+        // Check if explicitly blocked
+        if (first.status === 'blocked') {
+             return formatResponse("BLOCKED", null, `Slot/Day is blocked: ${first.reason || 'No reason provided'}`);
+        }
+        
+        // SUCCESS: Found in range and not blocked (assuming)
+        // Map start/end if available, otherwise use whole date
+        const slotData = {
+            local_start: first.start || first.date,
+            local_end: first.end || first.date // Fallback if no end time
+        };
+        
+        return formatResponse("AVAILABLE", slotData, "Slots/Availability found in requested range.");
     }
 
     // 3. FALLBACK: Nothing found, trigger 90-day search automatically

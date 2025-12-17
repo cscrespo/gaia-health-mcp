@@ -23,8 +23,8 @@ async function testAvailability() {
     const payload = {
         doctor_id: "ec8be3b7-2036-4948-9416-9cbf36cf10e6",
         branch_id: "f8012fbf-c8e4-47d2-99db-90c9022f6e61",
-        date_from: "2025-12-08T00:00:00-03:00",
-        date_to: "2025-12-08T12:00:00-03:00"
+        date_from: "2025-12-18T09:00:00",
+        date_to: "2025-12-18T17:00:00"
     };
 
     const qs = new URLSearchParams(payload).toString();
