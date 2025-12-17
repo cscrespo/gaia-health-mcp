@@ -192,13 +192,15 @@ export const checkAvailability = async (args: { doctor_id: string; branch_id: st
     console.log(`[LOGIC] Checking availability for ${args.date_from} to ${args.date_to}`);
     
     // 1. First Attempt: Check the requested range
-    const { data: slots, error } = await supabase.functions.invoke('availability-api', {
-        body: {
-            doctor_id: args.doctor_id,
-            branch_id: args.branch_id,
-            date_from: args.date_from,
-            date_to: args.date_to
-        }
+    const searchParams = new URLSearchParams({
+        doctor_id: args.doctor_id,
+        branch_id: args.branch_id,
+        date_from: args.date_from,
+        date_to: args.date_to
+    });
+
+    const { data: slots, error } = await supabase.functions.invoke(`availability-api?${searchParams.toString()}`, {
+        method: 'GET'
     });
 
     if (error) {
@@ -225,8 +227,9 @@ export const checkAvailability = async (args: { doctor_id: string; branch_id: st
     };
 
     // 2. Analysis & Fallback Logic
-    const availableSlots = slots || []; // Assume API returns list of slots
-    const hasAvailableSlot = availableSlots.length > 0; // Simplification: assume any returned slot is valid
+    // Note: The API returns { availability: [...] }, so we need to extract it
+    const availableSlots = (slots && slots.availability) ? slots.availability : (Array.isArray(slots) ? slots : []);
+    const hasAvailableSlot = availableSlots.length > 0;
 
     if (hasAvailableSlot) {
         // SUCCESS: Found in range
@@ -242,13 +245,15 @@ export const checkAvailability = async (args: { doctor_id: string; branch_id: st
     const fallbackDateTo = new Date();
     fallbackDateTo.setDate(fallbackDateTo.getDate() + 90); // Look 90 days ahead
 
-    const { data: fallbackSlots, error: fallbackError } = await supabase.functions.invoke('availability-api', {
-        body: {
-            doctor_id: args.doctor_id,
-            branch_id: args.branch_id,
-            date_from: fallbackDateFrom.toISOString().split('T')[0],
-            date_to: fallbackDateTo.toISOString().split('T')[0]
-        }
+    const fallbackParams = new URLSearchParams({
+        doctor_id: args.doctor_id,
+        branch_id: args.branch_id,
+        date_from: fallbackDateFrom.toISOString().split('T')[0],
+        date_to: fallbackDateTo.toISOString().split('T')[0]
+    });
+
+    const { data: fallbackSlots, error: fallbackError } = await supabase.functions.invoke(`availability-api?${fallbackParams.toString()}`, {
+        method: 'GET'
     });
 
     if (fallbackError) {
@@ -257,7 +262,7 @@ export const checkAvailability = async (args: { doctor_id: string; branch_id: st
          return formatResponse("ERROR", null, "Failed to execute fallback search.");
     }
 
-    const fallbackList = fallbackSlots || [];
+    const fallbackList = (fallbackSlots && fallbackSlots.availability) ? fallbackSlots.availability : (Array.isArray(fallbackSlots) ? fallbackSlots : []);
     
     if (fallbackList.length > 0) {
         // SUCCESS: Found in fallback
