@@ -232,20 +232,23 @@ export const checkAvailability = async (args: { doctor_id: string; branch_id: st
     const hasAvailableSlot = availableSlots.length > 0;
 
     if (hasAvailableSlot) {
-        const first = availableSlots[0];
-        // Check if explicitly blocked
-        if (first.status === 'blocked') {
-             return formatResponse("BLOCKED", null, `Slot/Day is blocked: ${first.reason || 'No reason provided'}`);
+        // Search for the first day that is ACTUALLY available and has slots
+        const firstAvailableDay = availableSlots.find((day: any) => day.status === 'available' && day.slots && day.slots.length > 0);
+
+        if (firstAvailableDay) {
+             // SUCCESS: Found a valid slot in the range
+             const firstSlot = firstAvailableDay.slots[0];
+             const slotData = {
+                local_start: firstSlot.local_start || firstSlot.start, // Prefer pre-formatted local time if available
+                local_end: firstSlot.local_end || firstSlot.end
+            };
+            return formatResponse("AVAILABLE", slotData, `First available slot found on ${firstAvailableDay.date}`);
         }
-        
-        // SUCCESS: Found in range and not blocked (assuming)
-        // Map start/end if available, otherwise use whole date
-        const slotData = {
-            local_start: first.start || first.date,
-            local_end: first.end || first.date // Fallback if no end time
-        };
-        
-        return formatResponse("AVAILABLE", slotData, "Slots/Availability found in requested range.");
+
+        // If we are here, we have data but NO available slots (all blocked or full)
+        // We return BLOCKED, using the reason from the first day as a hint
+        const firstDay = availableSlots[0];
+        return formatResponse("BLOCKED", null, `No availability in requested range. First day status: ${firstDay.status} (${firstDay.reason || 'No reason'})`);
     }
 
     // 3. FALLBACK: Nothing found, trigger 90-day search automatically
